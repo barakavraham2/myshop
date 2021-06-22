@@ -1,0 +1,88 @@
+.profile-card-2 {
+  max-width: 300px;
+  height: 450px;
+  box-shadow: rgba(0, 0, 0, 1) 0px 3px 8px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;  background-position: center;
+  overflow: hidden;
+  position: relative;
+  margin: 10px auto;
+  border-radius: 10px;
+  font-family: "Josefin Sans", sans-serif;
+
+}
+.product-button {
+  display: inline;
+  position: relative;
+  bottom: 90px;
+  border: none !important;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  color: black !important;
+  right: -200px;
+  padding: 17px 20px 17px 20px;
+}
+.profile-card-2 img {
+  transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-name {
+  display: inline;
+  padding-right: 1rem;
+  padding-top: 1rem ;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  position: relative;
+  left: 2px;
+  bottom: 60px;
+  font-size: 20px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.6);
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  transition: all linear 0.25s;
+}
+.profile-card-2 .profile-position {
+  position: relative;
+  left: 2px;
+  bottom: 60px;
+  font-size: 20px;
+  color: black;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+.description {
+  position: relative;
+  left: 2px;
+  bottom: 60px;
+  font-size: 14px;
+}
+
+.profile-card-2 .profile-username {
+  position: absolute;
+  bottom: 50px;
+  left: 30px;
+  color: #fff;
+  font-size: 13px;
+  transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons .fa {
+  margin: 5px;
+}
+
+.profile-card-2:hover img {
+  filter: grayscale(100%);
+}
+
+.profile-card-2:hover .profile-name {
+  bottom: 80px;
+}
+
+.profile-card-2:hover .profile-username {
+  bottom: 60px;
+}
+
+.profile-card-2:hover .profile-icons {
+  right: 40px;
+}
