@@ -1,15 +1,15 @@
 import axios from 'axios'
 
 async function getCategoris() {
-    const data = await axios.get('http://localhost:3002/api/category/all')
+    const data = await axios.get('https://thawing-reef-89327.herokuapp.com/api/category/all')
     return data.data
 }
 async function getProductsFromCategory(id) {
-    const data = await axios.get(`http://localhost:3002/api/products/productsByCategory/${id}`)
+    const data = await axios.get(`https://thawing-reef-89327.herokuapp.com/api/products/productsByCategory/${id}`)
     return data.data
 }
 async function sendNewProduct(product) {
-    const res = await axios.post(`http://localhost:3002/api/products/add/product`, {
+    const res = await axios.post(`https://thawing-reef-89327.herokuapp.com/api/products/add/product`, {
         name: product.name,
         img: product.img,
         price: product.price,
@@ -24,7 +24,7 @@ async function sendNewProduct(product) {
     return res.data
 }
 async function editProduct(product) {
-    const res = await axios.put(`http://localhost:3002/api/products/edit/product/${product.id}`, {
+    const res = await axios.put(`https://thawing-reef-89327.herokuapp.com/api/products/edit/product/${product.id}`, {
         name: product.name,
         img: product.img,
         price: product.price,
