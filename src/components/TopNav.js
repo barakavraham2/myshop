@@ -15,7 +15,8 @@ import AdminNav from './AdminNav';
 
 
 const TopNav = () => {
-
+    let width = window.innerWidth
+    console.log(width)
     const dispatch = useDispatch()
     const [showModal, setShowModal] = useState(false)
     const cartQuntity = useSelector(state => (state.cart.totalQuantity))

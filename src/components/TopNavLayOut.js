@@ -1,11 +1,11 @@
 import React from 'react'
-import TopNav from './TopNav'
+import TopNavSelector from './TopNavSelector'
 
 const TopNavLayOut = ({ children }) => {
 
     return (
         <React.Fragment>
-            <TopNav />
+            <TopNavSelector />
 
             {children}
         </React.Fragment>

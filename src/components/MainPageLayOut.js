@@ -1,12 +1,12 @@
 import React from 'react'
 import MainNavBar from './MainNavBar'
-import TopNav from './TopNav'
+import TopNavSelector from './TopNavSelector'
 
 const MainPageLayOut = ({ children }) => {
 
     return (
         <>
-            <TopNav />
+            <TopNavSelector />
             <MainNavBar />
             {children}
         </>

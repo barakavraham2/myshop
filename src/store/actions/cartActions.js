@@ -63,7 +63,9 @@ export const fetchCartFromDb = cartId => {
         const fetchCart = async () => {
             const res = await axios.get(`https://thawing-reef-89327.herokuapp.com/api/cart/getcart/${cartId}`)
             const arr = res.data;
+            console.log(res.data)
             if (res.data.length > 0) {
+
                 arr.forEach(element => {
                     dispatch(cartActions.addItemToCart({
                         id: element.productId,
