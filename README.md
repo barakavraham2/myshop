@@ -38,6 +38,7 @@ Here are screenshots that show the E-commerce demo application in use.
 
 **Admin DashBoard. Can see users info, add and edit products**
 ![DashBoard](/public/adminPanel.jpg?raw=true "Optional Title") (/public/editProduct.jpg?raw=true "Optional Title")
+![DashBoard](/public/editProduct.jpg?raw=true "Optional Title") (/public/editProduct.jpg?raw=true "Optional Title")
 
 
 
