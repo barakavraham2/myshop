@@ -6,7 +6,7 @@
 * Nodejs
 * Express
 * MySql
-## The Projet
+## The Project
 ---
 BackEnd: https://github.com/barakavraham2/shopBack
 ---
